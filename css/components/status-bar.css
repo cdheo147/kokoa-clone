@@ -4,6 +4,11 @@
   padding: 6px;
   font-size: 18px;
   font-weight: 500;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  height: 3.75vh;
 }
 
 .status-bar__column {
@@ -17,6 +22,7 @@
 .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
+  font-weight: 700;
 }
 
 .status-bar__column:last-child {
