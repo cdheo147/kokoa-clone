@@ -2,10 +2,11 @@
   display: block;
   text-align: center;
   background-color: #fafafa;
-  padding: 12px 0;
+  padding: 16px 0;
   font-size: 19px;
   font-weight: 500;
   margin-bottom: 8px;
+  margin-top: -12px;
 }
 
 #friends-display-link i:nth-child(1) {
@@ -15,10 +16,6 @@
 #friends-display-link i:nth-child(2) {
   color: #928383;
   margin-left: 12px;
-}
-
-.friends-screen {
-  padding: 0 var(--horizontal-space);
 }
 
 .friends-screen__channel {
