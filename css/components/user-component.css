@@ -23,7 +23,7 @@
 .user-component__description {
   margin-top: 8px;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--grey);
 }
 
 .user-component__profile--lg {
@@ -46,10 +46,10 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  color: #b9b9b9;
+  color: var(--grey);
 }
 
-.user-component__amount {
+.user-component__count {
   font-size: 20px;
   margin-right: 4px;
 }

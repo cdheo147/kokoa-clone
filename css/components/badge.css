@@ -10,3 +10,18 @@
   font-weight: 500;
   font-size: 14px;
 }
+
+.badge--number {
+  position: absolute;
+  left: 20px;
+  bottom: 16px;
+}
+
+.badge--dot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  left: 32px;
+  bottom: 28px;
+}
