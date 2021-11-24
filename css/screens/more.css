@@ -1,0 +1,64 @@
+.more-screen .user-component__column i {
+  color: #2e363e;
+}
+
+.more-screen .icon-row__icon {
+  position: relative;
+}
+
+.more-screen .icon-row span {
+  font-size: 16px;
+}
+
+.more-screen .badge-dot {
+  left: 72px;
+  bottom: 72px;
+}
+
+.more-screen .icon-row:nth-child(3) {
+  margin-top: 56px;
+}
+
+.more-suggestions {
+  margin-top: 44px;
+  border-top: var(--main-border);
+  padding-top: 32px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.more-suggestions__title {
+  margin-bottom: 28px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  margin: 0px 8px;
+}
+
+.more-suggestions__icon {
+  margin-right: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-suggestions__icon-image {
+  width: 56px;
+  height: 56px;
+  background-color: var(--yellow);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.more-suggestions__icon-image i {
+  font-size: 32px;
+  color: white;
+}
+
+.more-suggestions__icon-text {
+  color: var(--grey);
+}

@@ -11,13 +11,13 @@
   font-size: 14px;
 }
 
-.badge--number {
+.badge-number {
   position: absolute;
   left: 20px;
   bottom: 16px;
 }
 
-.badge--dot {
+.badge-dot {
   position: absolute;
   width: 6px;
   height: 6px;
