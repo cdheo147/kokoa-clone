@@ -1,0 +1,27 @@
+.settings__setting {
+  padding: 24px 8px;
+  border-bottom: 1px solid #f8f8f8;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  width: 28px;
+  height: 28px;
+  font-size: 28px;
+  margin-right: 24px;
+}
+
+.settings__setting span {
+  margin-right: 8px;
+}
+
+.settings__setting-column {
+  display: flex;
+}
+
+.settings__setting-column:last-child {
+  color: var(--grey);
+}
